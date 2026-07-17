@@ -1,83 +1,93 @@
 # 🎓 Student Portfolio Website — Flask
 
-A clean, modern portfolio website built with **Python Flask**, **HTML5**, and **CSS3**.
+A clean, modern portfolio website built with Python Flask, HTML5, and CSS3.
+
+## 🌐 Live Portfolio
+
+https://saniya-portfolio-wslw.onrender.com
+
+## 📂 GitHub Repository
+
+https://github.com/saniya331/saniya-portfolio.git
 
 ---
 
 ## 📁 Folder Structure
 
-```
 student_portfolio/
-├── app.py                  ← Flask application (routes)
-├── requirements.txt        ← Python dependencies
+├── app.py
+├── requirements.txt
 ├── templates/
-│   ├── index.html          ← Main portfolio page
-│   └── thankyou.html       ← Thank-you page after form submit
+│   ├── index.html
+│   └── thankyou.html
 └── static/
-    ├── style.css           ← All styling
-    └── resume.pdf          ← (Add your own resume PDF here)
-```
-
----
+    ├── style.css
+    └── resume.pdf
 
 ## 🚀 How to Run
 
 ### Step 1 — Install Python
-Make sure Python 3.8+ is installed:
+
 ```bash
 python --version
 ```
 
-### Step 2 — Create a virtual environment (recommended)
+### Step 2 — Create a virtual environment
+
 ```bash
 python -m venv venv
-# Windows:
+```
+
+**Windows**
+
+```bash
 venv\Scripts\activate
-# Mac/Linux:
+```
+
+**Mac/Linux**
+
+```bash
 source venv/bin/activate
 ```
 
-### Step 3 — Install Flask
+### Step 3 — Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Step 4 — Run the app
+
 ```bash
 python app.py
 ```
 
 ### Step 5 — Open in browser
-Visit: **http://127.0.0.1:5000**
 
----
+```
+http://127.0.0.1:5000
+```
 
 ## ✨ Features
 
-| Feature | Details |
-|---|---|
-| **Home** | Name, title, CTA buttons |
-| **About** | Bio, stats (years coding, projects, certs) |
-| **Skills** | 6 skill cards with animated progress bars |
-| **Projects** | 3 project cards with tags & links |
-| **Contact** | Form posts to `/contact` → thank-you page |
-| **Download Resume** | Button links to `static/resume.pdf` |
-| **Hover effects** | Cards lift, buttons animate, nav links highlight |
-| **Responsive** | Mobile-friendly layout |
+- Home section with introduction and CTA buttons
+- About section with profile and achievements
+- Skills section with animated progress bars
+- Projects section with project cards and links
+- Contact form with thank-you page
+- Download Resume button
+- Responsive design for desktop and mobile
+- Smooth hover effects and animations
 
----
+## 🎨 Customization
 
-## 🎨 Customisation
+- Update your name and title in `templates/index.html`
+- Edit your skills and projects in `index.html`
+- Replace `static/resume.pdf` with your resume
+- Modify colors in `static/style.css`
 
-1. **Change your name/title** → edit `templates/index.html` (hero section)
-2. **Update skills/projects** → edit the respective sections in `index.html`
-3. **Add resume** → drop your `resume.pdf` into the `static/` folder
-4. **Change colours** → edit CSS variables at the top of `static/style.css`
+## 🛠️ Tech Stack
 
----
-
-## 🛠 Tech Stack
-
-- **Backend**: Python 3, Flask
-- **Frontend**: HTML5, CSS3 (no frameworks)
-- **Fonts**: Playfair Display + DM Sans (Google Fonts)
+- **Backend:** Python, Flask
+- **Frontend:** HTML5, CSS3
+- **Fonts:** Google Fonts (Playfair Display, DM Sans)
