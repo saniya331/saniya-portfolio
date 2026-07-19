@@ -1,93 +1,45 @@
-# 🎓 Student Portfolio Website — Flask
+# AI Interview Assistant
 
-A clean, modern portfolio website built with Python Flask, HTML5, and CSS3.
+An AI-powered interview preparation platform that generates personalized interview questions based on a candidate's resume and target job role. It evaluates responses using Google Gemini AI and provides scores, feedback, and sample answers.
 
-## 🌐 Live Portfolio
+## Features
 
-https://saniya-portfolio-wslw.onrender.com
+- Upload PDF resume
+- Enter target job role
+- AI-generated interview questions
+- Answer evaluation with scores
+- Personalized feedback
+- Sample interview-ready answers
+- Responsive web interface
 
-## 📂 GitHub Repository
+## Tech Stack
 
-https://github.com/saniya331/saniya-portfolio.git
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+- Google Gemini AI
+- Render
+- Git & GitHub
 
----
+## Live Demo
 
-## 📁 Folder Structure
+https://your-render-url.onrender.com
 
-student_portfolio/
-├── app.py
-├── requirements.txt
-├── templates/
-│   ├── index.html
-│   └── thankyou.html
-└── static/
-    ├── style.css
-    └── resume.pdf
+## GitHub Repository
 
-## 🚀 How to Run
+https://github.com/saniya331/AI-Interview-Assistant
 
-### Step 1 — Install Python
-
-```bash
-python --version
-```
-
-### Step 2 — Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-**Windows**
+## Installation
 
 ```bash
-venv\Scripts\activate
-```
-
-**Mac/Linux**
-
-```bash
-source venv/bin/activate
-```
-
-### Step 3 — Install dependencies
-
-```bash
+git clone https://github.com/saniya331/AI-Interview-Assistant.git
+cd AI-Interview-Assistant
 pip install -r requirements.txt
-```
-
-### Step 4 — Run the app
-
-```bash
 python app.py
 ```
 
-### Step 5 — Open in browser
+## Author
 
-```
-http://127.0.0.1:5000
-```
-
-## ✨ Features
-
-- Home section with introduction and CTA buttons
-- About section with profile and achievements
-- Skills section with animated progress bars
-- Projects section with project cards and links
-- Contact form with thank-you page
-- Download Resume button
-- Responsive design for desktop and mobile
-- Smooth hover effects and animations
-
-## 🎨 Customization
-
-- Update your name and title in `templates/index.html`
-- Edit your skills and projects in `index.html`
-- Replace `static/resume.pdf` with your resume
-- Modify colors in `static/style.css`
-
-## 🛠️ Tech Stack
-
-- **Backend:** Python, Flask
-- **Frontend:** HTML5, CSS3
-- **Fonts:** Google Fonts (Playfair Display, DM Sans)
+Saniya Begum
