@@ -1,45 +1,23 @@
-# AI Interview Assistant
+# 🎓 Student Portfolio Website — Flask
 
-An AI-powered interview preparation platform that generates personalized interview questions based on a candidate's resume and target job role. It evaluates responses using Google Gemini AI and provides scores, feedback, and sample answers.
+A clean, modern portfolio website built with Python Flask, HTML5, and CSS3.
 
-## Features
+## 🌐 Live Portfolio
 
-- Upload PDF resume
-- Enter target job role
-- AI-generated interview questions
-- Answer evaluation with scores
-- Personalized feedback
-- Sample interview-ready answers
-- Responsive web interface
+https://saniya-portfolio-wslw.onrender.com
 
-## Tech Stack
+## 📂 GitHub Repository
 
-- Python
-- Flask
-- HTML
-- CSS
-- JavaScript
-- Google Gemini AI
-- Render
-- Git & GitHub
+https://github.com/saniya331/<your-portfolio-repository>
 
-## Live Demo
+## 📁 Folder Structure
 
-https://your-render-url.onrender.com
-
-## GitHub Repository
-
-https://github.com/saniya331/AI-Interview-Assistant
-
-## Installation
-
-```bash
-git clone https://github.com/saniya331/AI-Interview-Assistant.git
-cd AI-Interview-Assistant
-pip install -r requirements.txt
-python app.py
-```
-
-## Author
-
-Saniya Begum
+student_portfolio/
+├── app.py                  ← Flask application (routes)
+├── requirements.txt        ← Python dependencies
+├── templates/
+│   ├── index.html          ← Main portfolio page
+│   └── thankyou.html       ← Thank-you page after form submit
+└── static/
+    ├── style.css           ← All styling
+    └── resume.pdf          ← (Add your own resume PDF here)
