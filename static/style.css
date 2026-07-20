@@ -472,6 +472,18 @@ img { max-width: 100%; display: block; }
   color: #c0392b;
 }
 
+.form-success{
+    color:#16a34a;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.form-error{
+    color:#dc2626;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
 /* Social links */
 .contact-socials {
   display: flex;

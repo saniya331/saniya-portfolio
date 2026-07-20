@@ -8,7 +8,7 @@ https://saniya-portfolio-wslw.onrender.com
 
 ## 📂 GitHub Repository
 
-https://github.com/saniya331/<your-portfolio-repository>
+https://github.com/saniya331/saniya-portfolio
 
 ## 📁 Folder Structure
 
@@ -18,6 +18,7 @@ student_portfolio/
 ├── templates/
 │   ├── index.html          ← Main portfolio page
 │   └── thankyou.html       ← Thank-you page after form submit
-└── static/
-    ├── style.css           ← All styling
-    └── resume.pdf          ← (Add your own resume PDF here)
+├── static/
+│   ├── style.css           ← All styling
+│   └── resume.pdf          ← Your resume
+└── README.md
