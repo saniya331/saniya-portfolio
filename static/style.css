@@ -434,6 +434,12 @@ img { max-width: 100%; display: block; }
   margin-bottom: 2rem;
 }
 
+/* Contact Section */
+#contact{
+    background:#ffffff;
+    padding:100px 0;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -626,4 +632,52 @@ img { max-width: 100%; display: block; }
 
 .profile-photo:hover{
     transform:scale(1.05);
+}
+
+
+/* Certificates Section */
+#certificates{
+    background:#faf7f2;
+    padding:100px 0;
+}
+
+.certificate-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.certificate-card{
+    background:#fff;
+    border:1px solid #ececec;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:all .3s ease;
+}
+
+.certificate-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.certificate-card h3{
+    font-size:1.3rem;
+    margin-bottom:12px;
+}
+
+.certificate-card p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.certificate-card a{
+    text-decoration:none;
+    font-weight:600;
+    color:#e89c1d;
+}
+
+.certificate-card a:hover{
+    text-decoration:underline;
 }
