@@ -138,6 +138,16 @@ img { max-width: 100%; display: block; }
 }
 .nav-links a:hover { color: var(--accent); }
 
+
+
+.menu-toggle{
+    display:none;
+    background:none;
+    border:none;
+    font-size:2rem;
+    cursor:pointer;
+}
+
 /* ── 6. HERO ──────────────────────────────────────────────────────── */
 .hero-content{
     flex:1;
@@ -351,9 +361,8 @@ img { max-width: 100%; display: block; }
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
 }
 
 .project-card {
@@ -466,6 +475,25 @@ img { max-width: 100%; display: block; }
 .form-group input:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(232,160,32,.15);
+}
+
+
+
+
+.form-group textarea{
+    width:100%;
+    padding:14px;
+    border:1.5px solid var(--border);
+    border-radius:8px;
+    resize:vertical;
+    font-family:var(--font-body);
+    font-size:1rem;
+}
+
+.form-group textarea:focus{
+    outline:none;
+    border-color:var(--accent);
+    box-shadow:0 0 0 3px rgba(232,160,32,.15);
 }
 
 .form-error {
@@ -681,3 +709,167 @@ img { max-width: 100%; display: block; }
 .certificate-card a:hover{
     text-decoration:underline;
 }
+
+
+
+/* =========================
+   Mobile (up to 768px)
+========================= */
+@media (max-width:768px){
+
+.container{
+    padding:0 20px;
+}
+
+.section{
+    padding:70px 0;
+}
+
+/* Navbar */
+
+.navbar{
+    padding:15px 20px;
+}
+
+.nav-logo{
+    font-size:1.4rem;
+}
+
+.nav-links{
+    display:none;   /* Replace with hamburger menu later */
+}
+
+/* Hero */
+
+.hero{
+    min-height:auto;
+    padding:120px 0 60px;
+}
+
+.hero-inner{
+    flex-direction:column-reverse;
+    gap:40px;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:100%;
+}
+
+.hero-name{
+    font-size:2.8rem;
+    line-height:1.1;
+}
+
+.hero-title{
+    font-size:1.2rem;
+}
+
+.hero-sub{
+    max-width:100%;
+    font-size:1rem;
+}
+
+.hero-image{
+    width:220px;
+    height:220px;
+}
+
+.profile-photo{
+    width:220px;
+    height:220px;
+}
+
+.hero-cta{
+    justify-content:center;
+}
+
+/* About */
+
+.about-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.about-stats{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+/* Skills */
+
+.skills-grid{
+    grid-template-columns:1fr;
+}
+
+/* Projects */
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+/* Certificates */
+
+.certificate-grid{
+    grid-template-columns:1fr;
+}
+
+/* Contact */
+
+.contact-inner{
+    max-width:100%;
+}
+
+.contact-socials{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (min-width:769px) and (max-width:1024px){
+
+.hero-inner{
+    gap:60px;
+}
+
+.hero-name{
+    font-size:4rem;
+}
+
+.projects-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.skills-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.certificate-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+}
+
+/* =========================
+   Large Screens
+========================= */
+
+@media (min-width:1400px){
+
+.container{
+    max-width:1280px;
+}
+
+.hero-inner{
+    max-width:1280px;
+}
+
+.hero-name{
+    font-size:6rem;
+}
+}
+
